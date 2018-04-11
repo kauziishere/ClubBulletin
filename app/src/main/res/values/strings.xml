@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Club Bulletin</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="acses_string">ACSES</string>
+    <string name="cesa_string">CESA</string>
+    <string name="eesa_string">EESA</string>
+    <string name="elesa_string">ELESA</string>
+    <string name="mesamesc_string">MESA-MESC</string>
+    <string name="sait_string">SAIT</string>
+    <string name="button">Button</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="prn_number">PRN Number</string>
+    <string name="password">password</string>
+    <string name="change_my_password">Change my password</string>
+    <string name="current_password">Current password</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="club_service_room_no">Club service room no.</string>
+    <string name="textview">TextView</string>
+    <string name="update">Update</string>
+    <string name="club_service">CLUB SERVICE</string>
+    <string name="event">Event</string>
+    <string name="eesa_is_students_organization_pioneered_in_technical_activities_founded_by_dr_u_gudaru_it_is_active_since_1976_with_the_concept_of_founder_guidance_of_staff_advisor_under_the_leadership_of_final_year_students_executive_group_of_3rd_year_students_with_full_fledged_support_of_2nd_and_1st_year_students_together_enhances_the_power_of_eesa">EESA is students\' organization pioneered in technical activities, founded by Dr. U Gudaru. It is active since 1976, with the concept of founder, guidance of staff advisor, under the leadership of final year students, executive group of 3rd year students, with full fledged support of 2nd and 1st year students together enhances the power of EESA.</string>
+
+</resources>

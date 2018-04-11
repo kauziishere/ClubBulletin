@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus_elesa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.itlab.clubbulletin.Aboutus_elesa"
+    android:fillViewport="true">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_marginBottom="300dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        ></android.support.v4.view.ViewPager>
+
+    <TextView
+        android:text="A platform to all budding electronics engineers for a valuable exchange of ideas, and to bring out valuable decisions through scientific discussions. Another indispensable part of ELESA is the event ELECTROVERT. This event with its various sub events tries to cover most of the engineering aspect of electronics engineering. The students also strive to conduct various social programs such as pre-graduate students’ awareness campaign. As an HOD, I try to motivate the energetic students in the right direction to channelize their enthusiasm. The department is and always will backup and promote these efforts. "
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp" />
+
+</RelativeLayout>
+</ScrollView>

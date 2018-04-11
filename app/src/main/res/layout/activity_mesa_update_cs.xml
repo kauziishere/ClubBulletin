@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mesa_update_cs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:background="@drawable/back"
+    android:paddingTop="16dp"
+    tools:context="com.example.itlab.clubbulletin.Mesa_update_cs">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/button"
+        android:text="update"
+        android:onClick="update"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Club service title"
+        android:id="@+id/mesa_cs_title"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:textColorLink="#FFFFFF"
+        android:layout_marginTop="41dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="@string/club_service_room_no"
+        android:ems="10"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:id="@+id/mesa_cs_room"
+        tools:ignore="SpUsage"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/mesa_cs_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="club service date(YY/MM/DD)"
+        android:textSize="30dp"
+        android:id="@+id/mesa_cs_date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        tools:ignore="HardcodedText,SpUsage"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/mesa_cs_room"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:id="@+id/mesa_cs_time"
+        android:hint="Club service time"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        tools:ignore="HardcodedText,SpUsage"
+        android:layout_below="@+id/mesa_cs_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+</RelativeLayout>
